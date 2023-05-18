@@ -1,0 +1,36 @@
+{
+  "name": "template",
+  "version": "1.0.0",
+  "description": "template for setting up html-scss-js",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --progress --config webpack.config.build.js",
+    "development": "webpack server --progress --config webpack.config.development.js",
+    "start": "npm run development"
+  },
+  "author": "oladimeji-shopeyin",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-loader": "^9.1.2",
+    "clean-webpack-plugin": "^4.0.0",
+    "copy-webpack-plugin": "^11.0.0",
+    "css-loader": "^6.7.3",
+    "eslint": "^8.40.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-standard": "^5.0.0",
+    "html-loader": "^4.2.0",
+    "image-minimizer-webpack-plugin": "^3.8.2",
+    "mini-css-extract-plugin": "^2.7.5",
+    "postcss": "^8.4.23",
+    "postcss-loader": "^7.3.0",
+    "sass": "^1.62.1",
+    "sass-loader": "^13.2.2",
+    "terser-webpack-plugin": "^5.3.8",
+    "webpack": "^5.82.0",
+    "webpack-cli": "^5.0.2",
+    "webpack-dev-server": "^4.13.3",
+    "webpack-merge": "^5.8.0"
+  }
+}
